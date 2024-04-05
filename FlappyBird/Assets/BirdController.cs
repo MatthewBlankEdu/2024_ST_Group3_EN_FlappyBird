@@ -6,6 +6,8 @@ using UnityEngine;
 public class BirdController : MonoBehaviour
 {
     public float JumpForce;
+    public float MaxVelocityY;
+
     public Rigidbody2D Rigidbody2D;
 
     // Start is called before the first frame update
@@ -19,7 +21,11 @@ public class BirdController : MonoBehaviour
     {
         if(Input.GetButtonDown("Jump"))
         {
+            Rigidbody2D.velocity = Vector2.zero;
             Rigidbody2D.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
         }
+
+        if(Rigidbody2D.velocity.y > MaxVelocityY)
+            Rigidbody2D.velocity = new Vector2(0, MaxVelocityY);
     }
 }

@@ -108,12 +108,16 @@ PrefabInstance:
       value: Pipe (4)
       objectReference: {fileID: 0}
     - target: {fileID: 7976246832300518316, guid: 10e2c2be4e8d5bc4092154570f8ea705, type: 3}
+      propertyPath: m_LocalScale.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976246832300518316, guid: 10e2c2be4e8d5bc4092154570f8ea705, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.099999905
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7976246832300518316, guid: 10e2c2be4e8d5bc4092154570f8ea705, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22.78
+      value: 4.81
       objectReference: {fileID: 0}
     - target: {fileID: 7976246832300518316, guid: 10e2c2be4e8d5bc4092154570f8ea705, type: 3}
       propertyPath: m_LocalPosition.z
