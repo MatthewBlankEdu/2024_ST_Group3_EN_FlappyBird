@@ -1,0 +1,44 @@
+
+public class Car : Vehicle
+{
+   
+}
+
+public class Bike : Vehicle
+{
+
+}
+
+public class Plane : Vehicle
+{
+    private void SomeMethod()
+    {
+        //Speed = 10;
+        Velocity = 12;
+    }
+}
+
+public class Vehicle
+{
+    private float Speed;
+    protected float Velocity;
+
+    public void SetSpeed(float speed)
+    {
+        Speed = speed;
+    }
+}
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        Car myCar = new Car();
+        Bike myBike = new Bike();
+        Plane myPlane = new Plane();
+
+        myCar.SetSpeed(12);
+
+        Vehicle someVehicle = myPlane;
+
+        myPlane = myCar;
+    }
