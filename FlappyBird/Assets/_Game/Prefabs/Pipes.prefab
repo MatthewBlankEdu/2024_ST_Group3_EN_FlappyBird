@@ -47,6 +47,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: -2
+  DespawnPoint: -4.5
+  SpawnPoint: 4.5
+  MinY: -3.5
+  MaxY: -0.25
 --- !u!1001 &150514559811997471
 PrefabInstance:
   m_ObjectHideFlags: 0
