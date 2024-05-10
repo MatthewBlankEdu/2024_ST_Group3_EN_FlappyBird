@@ -26,6 +26,8 @@ public class BirdController : MonoBehaviour
         }
 
         if(Rigidbody2D.velocity.y > MaxVelocityY)
+        {
             Rigidbody2D.velocity = new Vector2(0, MaxVelocityY);
+        }
     }
 }

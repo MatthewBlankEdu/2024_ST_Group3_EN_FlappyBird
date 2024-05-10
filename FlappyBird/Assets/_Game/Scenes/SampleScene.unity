@@ -945,13 +945,29 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6215194841185367571, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
+      propertyPath: MaxY
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215194841185367571, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
+      propertyPath: MinY
+      value: -3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215194841185367571, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
+      propertyPath: SpawnPoint
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215194841185367571, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
+      propertyPath: DespawnPoint
+      value: -4.5
+      objectReference: {fileID: 0}
     - target: {fileID: 9139717328560260824, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.15
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 9139717328560260824, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.5
+      value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: 9139717328560260824, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
       propertyPath: m_LocalPosition.z
